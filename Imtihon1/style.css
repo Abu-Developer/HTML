@@ -1,0 +1,296 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1440px;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+.site-header {
+    width: 1110px;
+    height: 48px;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-content-wrapper {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.site-logo {
+    width: 134px;
+    height: 37px;
+
+
+}
+
+.header-list {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+
+}
+
+.header-list li a {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 700;
+    color: #36536B;
+}
+
+.header-item {
+    width: 51;
+    height: 18;
+    top: 16px;
+    left: 199px;
+    opacity: 0.7;
+    display: inline;
+
+}
+
+.demo-btn {
+    width: 173px;
+    height: 48px;
+    border-radius: 24px;
+    border: none;
+    background-color: #BA4270;
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
+}
+
+.hero {
+    display: flex;
+    width: 1110px;
+    margin: 100px auto;
+    justify-content: space-between;
+    padding-right: 100px;
+}
+
+.hero-left {
+    width: 546px;
+    height: 243px;
+    margin-top: 100px;
+}
+
+.hero-left h1 {
+    font-weight: 600;
+    font-size: 72px;
+    color: #36536B;
+}
+
+.hero-left h2 {
+    font-size: 15px;
+    font-weight: 400;
+    color: #6C8294;
+    margin-top: 5px;
+}
+
+.hero-left h2 span {
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.second {
+    height: 472px;
+    background-color: #1B262F;
+}
+
+.work-title {
+    color: #FBFCFE;
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.work-text {
+    color: #FBFCFE;
+    font-size: 15px;
+    font-weight: 400;
+    opacity: 70%;
+}
+
+.work {
+    margin: 100px auto;
+    width: 461px;
+    height: 275px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+}
+
+.work-btn {
+    width: 134px;
+    height: 50px;
+    opacity: 1;
+    text-align: center;
+    border-radius: 24px;
+    color: #FBFCFE;
+    background-color: transparent;
+    border-color: #FBFCFE;
+    margin: auto;
+}
+
+.implement {
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    padding: 100px 165px;
+}
+
+.implement-content {
+    width: 445px;
+    height: 164px;
+    margin-top: 120px;
+}
+
+.implement-title {
+    font-size: 48px;
+    font-weight: 400;
+    color: #36536B;
+}
+
+.implement-text {
+    font-weight: 400;
+    font-size: 15px;
+    color: #6C8294;
+    margin-top: 24px;
+    line-height: 28px;
+}
+
+.simple {
+    display: flex;
+    margin-top: 50px;
+    height: 600px;
+}
+
+.simple-left {
+    width: 445px;
+}
+
+.simple-title {
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    color: #36536B;
+    margin-top: 332px;
+}
+
+.simple-text {
+    font-size: 15px;
+    font-weight: 400;
+    color: #6C8294;
+    line-height: 28px;
+    margin-top: 24px;
+}
+
+.simple-right {
+    width: 525px;
+    height: 400px;
+    margin-top: 50px;
+}
+
+.payment {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin-top: 146px;
+    gap: 40px;
+    padding-bottom: 100px;
+}
+
+.payment1 {
+    height: 100px;
+    width: 350px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+
+.payment-img {
+    width: 106px;
+    height: 106px;
+
+}
+
+.payment-title {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+    color: #36536B;
+}
+
+.payment-text {
+    font-size: 15px;
+    font-weight: 400;
+    color: #6C8294;
+    width: 350px;
+    height: 140px;
+}
+
+.footer {
+    background-color: #1B262F;
+    width: 1440px;
+    height: 100px;
+    margin-bottom: 50px;
+}
+
+.site-footer {
+    width: 1110px;
+    height: 48px;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-content-wrapper {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+
+}
+
+.site-logo {
+    width: 134px;
+    height: 37px;
+}
+
+.footer-list {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.footer-list li a {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
+}
+
+.footer-item {
+    width: 51px;
+    height: 18px;
+    opacity: 0.7;
+    display: inline;
+}
+
+.footer-logo {
+    display: flex;
+    gap: 24px;
+}
+
+.logos {
+    width: 24px;
+    height: 24px;
+}
